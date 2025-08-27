@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ibhoni Bicycle Tours - Bookings</title>
+</head>
+<body>
+
+  <header>
+    <h1>Ibhoni Bicycle Tours</h1>
+    <p>Book your Soweto cycling adventure today 🚴🏾‍♂</p>
+
+    <nav>
+      <ul>
+        <li><a href="INDEX.html">Home</a></li>
+        <li><a href="TourList.html">Tour Listings</a></li>
+        <li><a href="Gallery.html">Gallery</a></li>
+        <li><a href="Bookings.html">Bookings</a></li>
+        <li><a href="About Us.html">About Us</a></li>
+        <li><a href="Contact Us.html">Contact Us</a></li>
+      </ul>
+
+      <img src="Images/bicycle tour.jpg" height="200">
+
+
+    </nav>
+  </header>
+
+  <main>
+    <h2>Choose Your Package</h2>
+
+    <section><!--reference for section tag, w3schools.com-->
+      <h3>🚲 Standard Bicycle Tour</h3>
+      <p><strong>Price:</strong> R600 per person</p>
+      <p>Includes: Bicycle, helmet, local guide<br>
+      Special: Donate a book and get 10% off</p>
+      <a href="#booking-form">Book Now</a> <!--When you click on book now it takes you directly to booking forms-->
+    </section>
+
+    <section>
+      <h3>🍔 Bicycle Tour + Meal & Beer Tasting</h3>
+      <p><strong>Price:</strong> R700 per person (Discount: R349 via voucher)</p>
+      <p>Includes: Bicycle, helmet, guide, Kota lunch, beer tasting</p>
+      <a href="#booking-form">Book Now</a>
+    </section>
+
+    <section>
+      <h3>👥 Two-for-One Special</h3>
+      <p><strong>Price:</strong> R600 for 2 people</p>
+      <p>Includes: Bicycle, helmet, guide, Kota lunch, beer tasting</p>
+      <a href="#booking-form">Book Now</a>
+    </section>
+
+    <section>
+      <h3>🛒 Group Voucher Deal</h3>
+      <p><strong>Price:</strong> R650 for 2 people (voucher)</p>
+      <p>Includes: Meal options, beer tasting, guide (excl. museum fees)</p>
+      <a href="#booking-form">Book Now</a>
+    </section>
+
+    <h2 id="booking-form">Booking Form</h2>
+
+    <form>
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" name="phone" required><br><br><br>
+
+      <label for="package">Select Package</label>
+      <select id="package" name="package" required>
+        <option value="">-- Please Select --</option>
+        <option value="standard">Standard Bicycle Tour (R600)</option>
+        <option value="meal_beer">Bicycle Tour + Meal & Beer (R700)</option>
+        <option value="two_for_one">Two-for-One Special (R600 for 2)</option>
+        <option value="group_voucher">Group Voucher Deal (R650 for 2)</option>
+      </select><br><br>
+
+      <label for="date">Select Date</label>
+      <input type="date" id="date" name="date" required><br><br>
+
+      <label for="guests">Number of Guests</label>
+      <input type="number" id="guests" name="guests" min="1" value="1" required><br><br>
+
+      <label for="requests">Special Requests / Dietary Requirements</label><br><br>
+      <textarea id="requests" name="requests" rows="4"></textarea><br><br>
+
+      <button type="submit">Confirm Booking</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Ibhoni Bicycle Tours | Soweto, South Africa</p>
+  </footer>
+
+</body>
+</html>
