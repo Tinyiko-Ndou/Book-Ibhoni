@@ -1,0 +1,28 @@
+body{
+    background-color: beige;
+    font-style: oblique;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    padding: 10px 20px;
+    text-decoration: underline white;
+}
+
+nav  a{
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+nav img{
+    height: 150px;
+}
+h1{
+    text-align: center;
+
+}
