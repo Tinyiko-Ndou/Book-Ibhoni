@@ -1,0 +1,61 @@
+
+section {
+    background-color: #f8f8f8;   
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-left: 5px solid #2b8a3e; 
+  }
+  
+  
+  form {
+    background-color: #f0f0f0;
+    padding: 25px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  
+  
+  main img {
+    display: block;
+    margin: 30px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+
+  button[type="submit"] {
+    background-color: #2b8a3e;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #256f33;
+  }
+.bttn{
+    margin-top: 20px;
+    margin-bottom: 230px;
+    padding: 12px 25px;
+    font-size: 1.2em;
+    color: white;
+    background: #256f33;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}  
+.bttn-wrapper{
+    max-width: 800px;         
+  margin: 0 auto;          
+  padding: 0 20px;
+}
+h2{
+    text-align: center;
+}
