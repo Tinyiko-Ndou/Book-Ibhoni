@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+    padding: 0;
+}
 
 h1{
     background-color: white;
@@ -15,6 +19,8 @@ nav{
     background:rgb(19, 112, 169);
     padding: 10px 20px;
     text-decoration: underline white;
+    width: 100%;
+    
 }
 
 nav  a{
@@ -37,9 +43,67 @@ pre{
 }
 footer{
     text-align: center;
-    padding: 15px;
+    padding: 20px;
     background: #2c3e50;
     color: white;
-    margin-top: 20px;
+    margin-top: 40px;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #1da1f2; 
+}  
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav a {
+        margin: 5px 0;
+        font-size: 0.95rem;
+    }
+
+    nav img {
+        max-height: 60px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    pre {
+        font-size: 0.9rem;
+    }
+
+    .social-icons a {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    nav {
+        padding: 10px;
+    }
+
+    nav a {
+        font-size: 0.85rem;
+    }
+
+    .social-icons a {
+        font-size: 18px;
+    }
 }
 
