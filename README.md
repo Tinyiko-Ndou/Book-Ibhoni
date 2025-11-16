@@ -8,4 +8,4 @@ There is also a button that pulses and changes colour when you hover over it, wh
 in the footer you can find all the social media where you can find this business 
 the backgrounds of the other pages are blue except the gallery page. In the gallery page when you click on an image it opens up fully in a different tab.
 The booking page has the different options with buttons that take you straight to the booking form
-the contact us page has a map with the location of where you can find this local business.
+the contact us page has a map with the location of where you can find this local business..
